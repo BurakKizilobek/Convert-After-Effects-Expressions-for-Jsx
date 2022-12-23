@@ -1,4 +1,4 @@
-# Convert-After-Effects-Expressions-for-Jsx
+# Convert After Effects Expressions for Jsx
 
 If you have an expression with more than one line and want to apply it with a Jsx script,
 You have convert it like this:
