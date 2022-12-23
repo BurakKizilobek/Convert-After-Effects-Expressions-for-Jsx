@@ -19,8 +19,8 @@ wiggle( 4, wiggleAmount );
 ```javascript
 // Converted expression for a jsx script:
 
-'var wiggleAmount = effect("Wiggle Amount")("Slider"); \n'
-'wiggle( 4, wiggleAmount );\n'
+'var wiggleAmount = effect("Wiggle Amount")("Slider"); \n' +
+'wiggle( 4, wiggleAmount );'
 }
 ```
 
