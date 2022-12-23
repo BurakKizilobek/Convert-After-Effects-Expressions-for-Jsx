@@ -14,7 +14,7 @@ var convertedExpArray = [];
 // convert lines of exp.txt file to array
 for (var i = 0; i < expFileContent.split("\n").length; i++) {
     expFileContentArray[i] = expFileContent.split("\n")[i];
-    convertedExpArray[i] = "'" + expFileContentArray[i] + "\\" + "n" + "'+" ;
+    convertedExpArray[i] = "'" + expFileContentArray[i] + " \\n'" ;
 }
 
 expFileObj.close();
