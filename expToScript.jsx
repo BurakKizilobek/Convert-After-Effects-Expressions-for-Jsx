@@ -15,7 +15,7 @@ var convertedExpArray = [];
 for (var i = 0; i < expFileContent.split("\n").length; i++) {
     if (i != expFileContent.split("\n").length - 1) {
         expFileContentArray[i] = expFileContent.split("\n")[i];
-        convertedExpArray[i] = "'" + expFileContentArray[i] + "\\n+'";
+        convertedExpArray[i] = "'" + expFileContentArray[i] + "\\n'+";
     }
     else {
         expFileContentArray[i] = expFileContent.split("\n")[i];
