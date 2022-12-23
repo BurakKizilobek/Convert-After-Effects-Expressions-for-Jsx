@@ -1,0 +1,2 @@
+var wiggleAmount = effect("Wiggle Amount")("Slider"); 
+wiggle( 4, wiggleAmount );
