@@ -12,7 +12,7 @@ You have convert it like this:
 
 var wiggleAmount = effect("Wiggle Amount")("Slider"); 
 wiggle( 4, wiggleAmount );
-}
+
 ```
 
 ## Converted Expressions
@@ -21,7 +21,7 @@ wiggle( 4, wiggleAmount );
 
 'var wiggleAmount = effect("Wiggle Amount")("Slider");' + '\n' +
 'wiggle( 4, wiggleAmount );'
-}
+
 ```
 
 
